@@ -1,26 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
     <title>Curriculum Vitae</title>
-    <meta name="author" content="Michael Jiménez">
-    <meta name="description" content="Curriculum de Michael Jiménez">
-    <meta name="keywords" content="Curriculum">
-</head>
-<body>
+    <meta name="author" content="Michael Jiménez" />
+    <meta name="description" content="Curriculum de Michael Jiménez" />
+    <meta name="keywords" content="Curriculum" />
+  </head>
+  <body>
     <header>
-        <h1>Curriculum</h1>
+      <h1>Curriculum</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre_mi">Sobre mí</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#referencias">Referencias</a></li>
+          <li><a href="#contactame">Contáctame</a></li>
+        </ul>
+      </nav>
     </header>
-    <nav>
-        <li>hola</li>
-    </nav>
-    <section>Sobre mí</section>
-    <section>Experiencia</section>
-    <section>Estudios</section>
-    <section>Referencias</section>
-    
-    
+
+    <section id="sobre_mi">Sobre mí</section>
+    <section id="conocimientos">Comnocimientos
+      <ul>
+        <li>HTML,CSS Y JS</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>Git</li>
+      </ul>
+    </section>
+    <section id="experiencia">Proyectos
+      <div></div>
+    </section>
+
+    <section id="estudios">
+      Estudios
+      <div>
+        Colegio
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1676.2909324873847!2d-79.88211818530648!3d-2.186221512635949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6dd6f47d940d%3A0x6042620bd89fa1ba!2sUnidad%20Educativa%20San%20Jos%C3%A9%20La%20Salle!5e0!3m2!1ses-419!2sec!4v1697036818587!5m2!1ses-419!2sec"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div>
+        Universidad
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15948.077963850246!2d-79.96586848570556!3d-2.146222153674025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f925e5bfdb%3A0x327cdb9f7f4ba3b2!2sEscuela%20Superior%20Polit%C3%A9cnica%20del%20Litoral%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1697036541593!5m2!1ses-419!2sec"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+
+    <section id="referencias">Referencias</section>
+    <section id="contactame">
+      Contactame
+      <form id="formulario">
+        <label for="nombrescompletos">Nombres:</label>
+        <input
+          type="text"
+          id="nombrescompletos"
+          name="nombrescompletos"
+          required="required"
+        /><br />
+        <label for="correoelectronico">Correo electrónico:</label>
+        <input
+          type="email"
+          id="correoelectronico"
+          name="correoelectronico"
+          required="required"
+        /><br />
+        <label for="mensaje">Mensaje:</label>
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          rows="10"
+          cols="50"
+          required="required"
+        ></textarea
+        ><br />
+        <button type="submit" name="enviar">Enviar</button>
+        <button type="reset" name="reiniciar">Cancelar</button>
+      </form>
+    </section>
+
     <footer>By Michael</footer>
-</body>
+  </body>
 </html>
