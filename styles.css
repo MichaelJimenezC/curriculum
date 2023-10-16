@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&family=Yellowtail&display=swap');
+
+* {
+  font-family: "Titillium Web";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* SECCION INICIO */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://placehold.co/1200x800"); 
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+}
+
+header .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+header nav {
+  position: fixed;
+  margin-left: 60px;
+  background-color: #940253;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  z-index: 99;
+  display: block;
+}
+
+header nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+
+
+/* SECCION SOBRE MI */
+#sobre_mi {
+  background-color: #e6e6e6;
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+
+#sobre_mi .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+#sobre_mi h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+
+/* SECCION HABILIDADES */
+#conocimientos {
+  padding: 80px 0 100px 0;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://placehold.co/1200x800"); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  color: #fff;
+}
+
+#conocimientos .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+#conocimientos h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+
+/* SECCION RESUMEN */
+#estudios {
+  background-color: #e6e6e6;
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+
+#estudios .contenido-seccion {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+#estudios h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+
+
+/* SECCION CONTACTO */
+#contactame {
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+  }
+  
+  #contactame .contenido-seccion {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  
+  #contactame h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  
+  #contactame form {
+    max-width: 600px; 
+    margin: auto;
+  }
+  
+  #contactame form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #contactame form input,
+  #contactame form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contactame form button {
+    padding: 10px 20px;
+    background-color: #940253;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contactame form button:hover {
+    background-color: #7a0249;
+  }
+
