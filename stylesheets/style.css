@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, sans-serif;
+  }
+  .subtitulo {
+    font-family: "Times New Roman", serif;
+  }
+h1 {
+    font-family: Georgia, serif;
+  }
+  /* Para el título principal */
+h1 {
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  /* Para los títulos de las secciones */
+  h2 {
+    font-family: "Amatic SC", cursive;
+  }
+  
+  /* Para todo el documento */
+  body {
+    font-family: "Martel", serif;
+  }
+  #experiencia {
+    margin: 2px 1px 1.5px;
+    margin-top: 0.8rem;
+    border: 1pt solid black;
+    padding: 2% 1.2%;  
+  }  
+  #formulario{
+    background-color: #3da9fc;
+  }
