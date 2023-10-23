@@ -8,6 +8,7 @@
     <meta name="description" content="Curriculum de Michael Jiménez" />
     <meta name="keywords" content="Curriculum" />
     <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="/app.js"></script>
   </head>
   <body>
     <main>
@@ -20,7 +21,7 @@
                             <li><a href="#experiencia">Experiencia</a></li>
                             <li><a href="#estudios">Estudios</a></li>
                             <li><a href="#referencias">Referencias</a></li>
-                            <li><a href="#contactame">Contáctame</a></li>
+                            <li><a href="#contacto">Contáctame</a></li>
                           </nav>
 
                     </div>
@@ -250,24 +251,30 @@
           <section id="referencias">Referencias
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget pulvinar nulla. Aliquam erat volutpat. Curabitur ut dui id massa tincidunt facilisis. Nunc maximus aliquet orci, eu bibendum magna fringilla vel. Integer nulla nunc, commodo non consequat quis, commodo non mi. Nam sit amet scelerisque est, eget semper ipsum. Suspendisse fermentum porta nibh vitae ornare. Nulla porta lacinia arcu non posuere. Curabitur iaculis imperdiet nulla, et dignissim metus egestas sed. Etiam quis scelerisque augue. Nullam non facilisis ante, vitae iaculis eros. Sed justo eros, dapibus ultricies turpis nec, egestas faucibus enim. In at feugiat nibh. Nam nec metus sodales, volutpat felis gravida, suscipit augue.</p>
           </section>
-          <section id="contactame">
-            Contactame
+          <section id="contacto">
+            <div><p>Contactame</p></div>
+            
             <form id="formulario">
-              <label for="nombrescompletos">Nombres:</label>
+                <div class="cajas_formulario">
+                    <label for="nombrescompletos">Nombres:</label>
               <input
                 type="text"
                 id="nombrescompletos"
                 name="nombrescompletos"
                 required="required"
               /><br />
-              <label for="correoelectronico">Correo electrónico:</label>
+                </div>
+              <div class="cajas_formulario">
+                <label for="correoelectronico">Correo electrónico:</label>
               <input
                 type="email"
                 id="correoelectronico"
                 name="correoelectronico"
                 required="required"
               /><br />
-              <label for="mensaje">Mensaje:</label>
+              </div>
+              <div class="cajas_formulario">
+                <label for="mensaje">Mensaje:</label>
               <textarea
                 id="mensaje"
                 name="mensaje"
@@ -276,8 +283,12 @@
                 required="required"
               ></textarea
               ><br />
-              <button type="submit" name="enviar">Enviar</button>
+              </div>
+              <div class="cajas_formulario">
+                <button type="submit" name="enviar">Enviar</button>
               <button type="reset" name="reiniciar">Cancelar</button>
+              </div>
+              
             </form>
           </section>
       
