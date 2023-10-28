@@ -310,5 +310,34 @@ a{
     font-family: "Amatic SC", cursive;
     padding: 20px;
 }
+#contenedorEstudios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea dos columnas con igual ancho */
+    gap: 5px; /* Espacio entre las columnas y filas */
+}
 
+#seccionEstudios {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+}
+#seccionEstudios h2{
+    margin: 0;
+    margin-top: 50px;
+}
+
+
+.divEstudios{
+    display: flex;
+    flex-direction: column; /* Alinea los elementos en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; /* Centra verticalmente los elementos */
+    
+}
+.divEstudios span{
+    font-size: 20px;
+    font-family: "Amatic SC", cursive;
+    padding: 20px;
+}
 
