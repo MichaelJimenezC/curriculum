@@ -46,7 +46,7 @@ html {
 
 }
 a{
-    color: white;
+    color: black;
 }
 
 /* Estilos para el nav */
@@ -103,7 +103,7 @@ a{
 
 #sobre_mi{
     height: 500px;
-    background-color: black;
+    
 }
 #sobre_mi_flex {
     /* Modo de colocar los elementos internos de manera flexible */
@@ -154,7 +154,7 @@ a{
     margin: 10px;
     /* El espacio restante en el contenedor se distribuirá equitativamente entre todos los elementos internos */
     flex-grow: 1;
-    color: white;
+    color: black;
 }
 #info p{
     margin-left: 10px;
@@ -176,7 +176,7 @@ a{
 }
 .li_info span:first-child{
     font-weight: 600;
-    color: #fff;
+    color: black;
     width: 130px;
 }
 /* SECCION CONTACTO */
