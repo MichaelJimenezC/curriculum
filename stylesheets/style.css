@@ -103,6 +103,8 @@ a{
 
 #sobre_mi{
     height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     
 }
 #sobre_mi_flex {
@@ -269,6 +271,7 @@ a{
     flex-direction: column; /* Alinea los elementos en columna */
     align-items: center; /* Centra horizontalmente los elementos */
     justify-content: center; /* Centra verticalmente los elementos */
+    margin-bottom: 200px;
     
 }
 
@@ -341,3 +344,47 @@ a{
     padding: 20px;
 }
 
+
+/* Estilos generales para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Estilos para las columnas */
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+/* Estilos para los enlaces en "Links" y "Services" */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilos para "Have a Question?" */
+.question {
+    display: flex;
+    align-items: center;
+}
+
+.question img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Estilos para el texto de derechos de autor */
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+}
