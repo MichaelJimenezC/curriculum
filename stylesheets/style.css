@@ -60,8 +60,8 @@ main{
       column-gap: 0.5rem; 
 
       /* Nombres de las áreas*/
-      grid-template-areas: "A A A B B B"
-                           "C C C C C C"
+      grid-template-areas: "A A A A A A"
+                           "B B B C C C"
                            "D D D D D D"
                            "E E E E E E"
                            "F F F F F F"
@@ -72,9 +72,7 @@ main{
 }
 #personales{
     grid-area: B;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 20px;
+   
 
 }
 #divPersonales{
@@ -243,8 +241,13 @@ footer{
     margin: 300px;
     color: #000;
     text-align: center;
-
-    height: 34rem;
+    margin-top: 100px !important;
+    
+}
+#div_formulario h2{
+  margin-top: 0;
+  margin-bottom: 10px;
+    
 }
 
 #formulario {
@@ -323,6 +326,9 @@ footer{
     justify-content: center; /* Centra verticalmente los elementos */
     margin-bottom: 200px;
     
+}
+.contenido-seccion h2{
+    text-align: center;
 }
 
 .fila {
