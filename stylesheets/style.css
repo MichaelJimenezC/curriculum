@@ -49,6 +49,7 @@ a{
     color: black;
 }
 
+
 /* Estilos para el nav */
 #nav.nav {
     position: fixed;
@@ -369,12 +370,14 @@ ul {
 
 li {
     margin-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 /* Estilos para "Have a Question?" */
 .question {
     display: flex;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .question img {
@@ -386,5 +389,10 @@ li {
 /* Estilos para el texto de derechos de autor */
 .copyright {
     text-align: center;
-    padding: 10px 0;
+    padding-top: 30px;
+}
+#footerLinks li a{
+    color: white;
+    text-decoration: none;
+
 }
