@@ -48,6 +48,55 @@ html {
 a{
     color: black;
 }
+main{
+    
+      /* Modo de colocar los elementos internos en una rejilla */
+      display: grid; 
+
+      /* Separación entre filas */
+      row-gap: 0.5rem; 
+
+      /* Separación entre columnas */
+      column-gap: 0.5rem; 
+
+      /* Nombres de las áreas*/
+      grid-template-areas: "A A A B B B"
+                           "C C C C C C"
+                           "D D D D D D"
+                           "E E E E E E"
+                           "F F F F F F"
+                           "G G G G G G "
+}
+#sobre_mi{
+    grid-area: A;
+}
+#personales{
+    grid-area: B;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+
+}
+#divPersonales{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+#habilidades{
+    grid-area: C;
+}
+#proyectos{
+    grid-area: D;
+}
+#seccionEstudios{
+    grid-area: E;
+}
+#contacto{
+    grid-area: F;
+}
+footer{
+    grid-area: G;
+}
 
 
 /* Estilos para el nav */
